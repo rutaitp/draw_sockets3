@@ -4,6 +4,7 @@ let r;
 let g;
 let b;
 
+//on window load prompt a user
 window.addEventListener('load', () => {
   let roomName = window.prompt('Enter room name: ')
   console.log(roomName);
